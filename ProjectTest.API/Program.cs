@@ -11,7 +11,7 @@ var app = builder.Build();
 app.MapGet("/", () =>
 {
     app.Logger.LogInformation("Initial Home Get");
-    return "GET - Net 6 Running ... 26/03/23 PABLO CESAR BELLIDO ALVA v1.0.2 AFORO255";
+    return "GET - Net 6 Running ... 26/03/23 PABLO CESAR BELLIDO ALVA v1.0.3 AFORO255";
 });
 
 app.MapPost("/", () =>
