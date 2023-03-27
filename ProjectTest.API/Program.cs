@@ -11,7 +11,7 @@ var app = builder.Build();
 app.MapGet("/", () =>
 {
     app.Logger.LogInformation("Initial Home Get");
-    return "GET - Net 6 Running ... PABLO BELLIDO ALVA v1.0.0 AFORO255";
+    return "GET - Net 6 Running ... 26 PABLO BELLIDO ALVA v1.0.0 AFORO255";
 });
 
 app.MapPost("/", () =>
